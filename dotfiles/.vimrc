@@ -26,7 +26,9 @@ set cpo-=<
 set wcm=<C-Z>
 map <F4> :emenu <C-Z>
 "--- End sweet menu
-
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
 
 

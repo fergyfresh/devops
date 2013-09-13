@@ -85,8 +85,8 @@ hardstatus alwayslastline "%H %-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%<"
 
 # 2.3) Autoload two screen tabs for vim/bash.
 screen -t bash 0
-screen -t edit_1 1
-screen -t edit_2 2
+screen -t editor 1
+screen -t editor 2
 screen -t server 3
 
 # 2.4) Description of the keywords used in hardstatus
