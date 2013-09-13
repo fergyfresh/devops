@@ -4,7 +4,7 @@
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
-sudo apt-get install -y curl
+sudo yum install -y curl
 curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Load nvm and install latest production node
@@ -14,7 +14,7 @@ nvm use v0.10.12
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
-sudo apt-get install -y rlwrap
+sudo yum install -y rlwrap
 
 # Install Heroku toolbelt
 # https://toolbelt.heroku.com/debian
