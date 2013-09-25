@@ -4,7 +4,7 @@ For a new EC2 instance running Amazon Linux AMI, configure both the machine and 
 
 ```sh
 cd $HOME
-sudo apt-get install -y git-core
+sudo yum install git
 git clone https://github.com/steveherschleb/devops.git
 ./devops/node/amazon-linux-ami-setup.sh   
 ```
