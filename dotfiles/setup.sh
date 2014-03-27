@@ -1,6 +1,4 @@
-#!/bin/bash
-
-ln -sb .screenrc .
-ln -sb .bash_profile .
-ln -sb .bashrc .
-ln -sb .vimrc .
+#!/usr/bin/env bash
+ln -s ~/.bashrc ./.bashrc
+ln -s ~/.vimrc ./.vimrc
+ln -s ~/.profile ./.profile
