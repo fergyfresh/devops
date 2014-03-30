@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
-ln -s ~/.bashrc ./.bashrc
-ln -s ~/.vimrc ./.vimrc
-ln -s ~/.profile ./.profile
+rm -f ~/.bashrc
+rm -f ~/.vimrc
+rm -f ~/.profile
+
+cp -f .bashrc .vimrc .profile ~
