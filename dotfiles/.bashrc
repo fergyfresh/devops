@@ -25,3 +25,4 @@ alias lstree="ls -R | grep ':$' | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's
 
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;31' # green for matches
+export PATH=$PATH:/usr/local/bin
